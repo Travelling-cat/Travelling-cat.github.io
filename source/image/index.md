@@ -15,6 +15,6 @@ aplayer:
 highlight_shrink:
 ---
 <div class="gallery-group-main">
-{% galleryGroup '幸福' '个人生活呀' "image/geren/" http://rqkf4d7dl.hb-bkt.clouddn.com/Obsidian/Github%E5%BB%BA%E5%BA%93%E8%AE%BE%E7%BD%AE.png %}
+{% galleryGroup '幸福' '个人生活呀' "image/geren/" https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/%E5%A3%81%E7%BA%B8.png %}
 
 </div>
