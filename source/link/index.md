@@ -1,8 +1,9 @@
 ---
-title: {{title}}
-date: {{date}}
-updated: {updated}
-type:
+title: 友情链接
+updated:
+  updated: null
+date: 2023-03-01 20:35:57
+type: "link"
 comments:
 description:
 keywords:
