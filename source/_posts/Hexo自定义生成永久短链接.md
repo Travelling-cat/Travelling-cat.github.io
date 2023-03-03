@@ -38,44 +38,13 @@ npm install hexo-abbrlink --save
 ##### 修改config.yml文件中的permalink
 
 ```
-permalink: posts/:abbrlink/
+permalink: posts/:abbrlink.html  # 此处可以自己设置,也可以直接使用 :/abbrlink;posts是自定义前缀。
+abbrlink:
+    alg: crc32   #算法： crc16(default) and crc32
+    rep: hex     #进制： dec(default) and hex
 ```
 
-###### 两种算法
-
-```
-alg -- Algorithm (currently support crc16 and crc32, which crc16 is default)
-rep -- Represent (the generated link could be presented in hex or dec value)
-```
-
-###### 算法设置
-
-```
-# abbrlink config
-abbrlink:  
-  alg: crc32  #support crc16(default) and crc32
-  rep: hex    #support dec(default) and hex
-```
-
-可选模式：
-
-- crc16 & hex
-- crc16 & dec
-- crc32 & hex
-- crc32 & dec
-
-###### 配置完成后
-
-```
-permalink: posts/:abbrlink/
-abbrlink:  
-  alg: crc32  # 算法：crc16(default) and crc32
-  rep: hex    # 进制：dec(default) and hex
-```
-
-## 样品
-
-所生成的链接如下 ：
+###### 配置完成后生成（官方样例）
 
 ```
 crc16 & hex
@@ -89,6 +58,8 @@ https://post.zz173.com/posts/8ddf18fb.html
 crc32 & dec
 https://post.zz173.com/posts/1690090958.html
 ```
+
+生成完后，原md文件的Front-matter 内会增加abbrlink 字段，值为生成的ID 。这个字段确保了在我们修改了Front-matter 内的博客标题title或创建日期date字段之后而不会改变链接地址。
 
 ### 模板文件修改（自选）
 
