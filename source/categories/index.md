@@ -7,7 +7,7 @@ type: "categories"
 comments:
 description:
 keywords:
-top_img:
+top_img: 'https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home05.jpg'
 mathjax:
 katex:
 aside:

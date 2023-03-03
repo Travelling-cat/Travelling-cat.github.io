@@ -1,5 +1,5 @@
 ---
-title: image
+title: Image
 updated:
   updated: null
 date: 2023-03-01 20:38:55
