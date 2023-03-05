@@ -110,9 +110,7 @@ deploy:
   repo: https://github.com/Travelling-cat/Travelling-cat.github.io.git
   branch: master
 #音乐
-aplayer:
-  meting: true
-  asset_inject: false
+
 #豆瓣
 douban:
   user: 268393464
