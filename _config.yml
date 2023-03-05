@@ -133,7 +133,7 @@ douban:
     comments: true
     top_img: https://cccccc.png
     aside: true
-    path: movies
+    path: movies/index.html
     limit:
   game:
     title: 'This is my game title'
