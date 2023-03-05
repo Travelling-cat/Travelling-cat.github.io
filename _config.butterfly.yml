@@ -541,7 +541,7 @@ tag_ui: # 留空或 index
 background: 'url(https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life%2FHome.jpg)'
 
 # Footer Background
-footer_bg: true
+footer_bg: transparent
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
