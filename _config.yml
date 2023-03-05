@@ -109,3 +109,7 @@ deploy:
   type: git
   repo: https://github.com/Travelling-cat/Travelling-cat.github.io.git
   branch: master
+#音乐
+aplayer:
+  meting: true
+  asset_inject: false
