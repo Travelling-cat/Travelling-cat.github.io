@@ -3,11 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一木
-subtitle: '一木的笔记'
-description: '一木的笔记'
+title: 杨杨得亿
+subtitle: '得亿杨杨'
+description: "做事前要三思<br>
+  <- 能不能不做 -><br>
+  <- 能不能甩给别人做 -><br>
+  <- 能不能明天做 ->"
 keywords:
-author: 一木
+author: 杨杨得亿
 language: zh-CN
 timezone: ''
 

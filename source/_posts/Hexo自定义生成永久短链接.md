@@ -1,6 +1,6 @@
 ---
 title: Hexo自定义生成永久短链接
-copyright_author: 林中的猫
+copyright_author: 杨杨得亿
 abbrlink: 10aa1d61
 date: 2023-03-03 15:58:40
 updated:

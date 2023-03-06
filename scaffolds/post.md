@@ -13,7 +13,7 @@ toc:
 toc_number:
 toc_style_simple:
 copyright:
-copyright_author: 林中的猫
+copyright_author: 杨杨得亿
 copyright_author_href:
 copyright_url:
 copyright_info:
