@@ -30,9 +30,11 @@ aside:
 npm install hexo-lazyload-image --save
 
 2.在主目录配置文件_config.yml增加配置
-'''
+
+```yaml
 lazyload:
   enable: true
   loadingImg: /img/loading.gif
-'''
+```
+
 这个就是图片没加载出来的时候，出现一个动图转转转的文章页样式
